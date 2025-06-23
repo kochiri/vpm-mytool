@@ -1,17 +1,26 @@
 {
-    "packages": [
-        {
-            "name": "My Tool",
-            "id": "com.yourname.mytool",
-            "author": "Your Name",
-            "description": "VCC‚ÅŽg‚¦‚éƒc[ƒ‹",
-            "url": "https://your.booth.pm/",
-            "versions": [
-                {
-                    "version": "1.0.0",
-                    "url": "https://yourname.github.io/vpm-mytool/mytool-1.0.0.zip"
-                }
-            ]
+  "name": "Kochiri Tools",
+  "author": "Kochiri",
+  "url": "https://kochiri.github.io/vpm-mytool/source.json",
+  "id": "com.kochiri.mytool.listing",
+  "packages": {
+    "com.kochiri.mytool": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.kochiri.mytool",
+          "displayName": "My Tool",
+          "version": "1.0.0",
+          "unity": "2022.3",
+          "description": "ä¾¿åˆ©ãƒ„ãƒ¼ãƒ«ã®ãƒ†ã‚¹ãƒˆç‰ˆ",
+          "author": {
+            "name": "Kochiri"
+          },
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.1.0"
+          },
+          "url": "https://kochiri.github.io/vpm-mytool/mytool-1.0.0.zip"
         }
-    ]
+      }
+    }
+  }
 }
