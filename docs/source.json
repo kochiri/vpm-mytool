@@ -1,19 +1,26 @@
 {
-  "packages": [
-    {
-      "name": "My Tool",
-      "id": "com.kochiri.mytool",
-      "author": "Kochiri",
-      "description": "便利なツールです",
-      "url": "https://your.booth.pm/",
-      "versions": [
-        {
+  "name": "Kochiri Tools",
+  "id": "com.kochiri.mytoolrepo",
+  "url": "https://kochiri.github.io/vpm-mytool/source.json",
+  "author": "kochiri",
+  "packages": {
+    "com.kochiri.mytool": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.kochiri.mytool",
+          "displayName": "My Tool",
           "version": "1.0.0",
+          "author": {
+            "name": "Kochiri"
+          },
           "unity": "2022.3",
-          "vcc": ">=2.0.0",
+          "description": "便利なBooth販売ツール",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.1.0"
+          },
           "url": "https://kochiri.github.io/vpm-mytool/mytool-1.0.0.zip"
         }
-      ]
+      }
     }
-  ]
+  }
 }
