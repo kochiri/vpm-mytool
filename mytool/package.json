@@ -1,11 +1,9 @@
 {
-    "name": "com.yourname.mytool",
-    "version": "1.0.0",
+    "name": "com.kochiri.mytool",
     "displayName": "My Tool",
-    "description": "Boothw“üŽÒŒü‚¯‚Ì•Ö—˜ƒc[ƒ‹‚Å‚·B",
-    "author": {
-        "name": "Your Name"
-    },
+    "version": "1.0.0",
+    "type": "vpm",
+    "description": "Boothè³¼å…¥è€…å‘ã‘ã®ä¾¿åˆ©ãƒ„ãƒ¼ãƒ«ã§ã™ã€‚",
     "vpmDependencies": {
         "com.vrchat.avatars": ">=3.1.0"
     }
