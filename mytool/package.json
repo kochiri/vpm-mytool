@@ -1,0 +1,12 @@
+{
+    "name": "com.yourname.mytool",
+    "version": "1.0.0",
+    "displayName": "My Tool",
+    "description": "Boothw“üŽÒŒü‚¯‚Ì•Ö—˜ƒc[ƒ‹‚Å‚·B",
+    "author": {
+        "name": "Your Name"
+    },
+    "vpmDependencies": {
+        "com.vrchat.avatars": ">=3.1.0"
+    }
+}
